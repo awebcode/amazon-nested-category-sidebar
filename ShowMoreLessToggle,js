@@ -14,7 +14,7 @@ const ItemList = () => {
     } else {
       setVisibleCount(items.length);
     }
-    setShowAll(!showAll);
+    setShowAll((prev)=>!prev);
   };
 
   return (
